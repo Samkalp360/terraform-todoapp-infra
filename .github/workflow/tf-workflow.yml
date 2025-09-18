@@ -7,7 +7,7 @@ on:
 
 jobs:
   terraform:
-    runs-on: ubantu-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: checkout code
