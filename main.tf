@@ -18,8 +18,8 @@ provider "azurerm" {
 
 
 resource "azurerm_resource_group" "rg" {
-  name     = "rg01-${terraform.workspace}"
-  location = "eastus"
+  name       = "rg01-${terraform.workspace}"
+  location   = "eastus"
   managed_by = "Mahendra"
 
 }
