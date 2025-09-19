@@ -7,7 +7,6 @@ locals {
 }
 
 
-
 module "rg" {
     source = "../../modules/azurerm_resource_group"
     rg_name = "rg-dev-todoapp"
