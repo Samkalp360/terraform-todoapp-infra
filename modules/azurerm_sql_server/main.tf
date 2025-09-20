@@ -1,4 +1,4 @@
-resource "azurerm_mssql_ server" "sql_server" {
+resource "azurerm_mssql_server" "sql_server" {
     name = var.sql_server_name
     resource_group_name = var.rg_name
     location = var.location
